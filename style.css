@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:  #000000;
+    color: white;
+}
+nav{
+    display: flex;
+    gap:20px;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.nav-section{
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.nav-section input{
+    flex-grow: 1;
+    color: gba(255, 255, 255, 0.2);
+    background-color: #262626;
+    gap: 10px;
+    border-radius: 10px;
+    height: 24px;
+    font-size: 12px;
+
+}
+.nav-section button{
+    padding: 6px 20px;
+    background-color: #262626;
+    color: white;
+    border-radius: 10px;
+    font-size: 12px;
+
+}
+.first{
+    background-color: rgba(38, 38, 38, 1);
+    padding: 20px;
+    margin: 20px 50px;
+    border-radius: 15px;
+}
+.item{
+    display: flex;
+    gap: 15px;
+    margin: 10px 0px;
+    align-items: center;
+}
+.header-Container{
+    display: flex;
+    justify-content: space-between;
+}
+.item img{
+    width: 50px;
+}
+.header-rigth img{
+    width: 150px;
+}
+.header-rigth{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-rigth button{
+    border-radius: 20px;
+    height: 35px;
+    width: 95px;
+    background-color: rgba(254, 203, 3, 1);
+    justify-content: end;
+}
+.cato{
+    margin: 20px 50px;
+}
+.card-containers{
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 10px;
+   gap: 20px;
+}
+.card{
+    width: 30%;
+    margin-top: 20px;
+    border: 2px solid rgba(38, 38, 38, 1);
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1F1F1F;
+
+}
+.card button{
+    border-radius: 20px;
+    height: 30px;
+    width: 95px;
+    background-color: rgba(254, 203, 3, 1);
+    justify-content: end;
+    float: right;
+    margin-top: 15px;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.8);
+}
+.card h3{
+    color:rgba(196, 196, 196, 1);
+}
+h2{
+    margin-left: 20px;
+}
+.final{
+    display: flex;
+    gap:20px;
+    margin: 0px 50px;
+    border:1 px solid rgba(38, 38, 38, 1);
+    background-color: rgba(38, 38, 38, 1);
+    border-radius: 15px;
+}
+.final div{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    margin-left:10px;
+    margin-right: 40px;
+    padding:0px 70px;
+}
+.final div a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
